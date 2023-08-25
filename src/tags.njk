@@ -1,0 +1,17 @@
+---
+layout: base
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - all
+    - allBlogs
+permalink: /blogs/tags/{{ tag }}/
+eleventyComputed:
+  title: Tagged “{{ tag }}”
+---
+{% import "macros.njk" as macros %}
+<h2>Blogs tagged “{{ tag | slugify }}”</h2>
+
+{{ macros.blogList(collections[tag]) }}

@@ -1,0 +1,57 @@
+---js
+{
+  navigationOptions: {
+    listClass: "d-flex list-unstyled justify-content-around",
+    listItemClass: "col-auto px-2",
+    activeListItemClass: "active",
+    activeAnchorClass: "active"
+  }
+}
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="icon" type="image/svg" href="/images/logo.svg" />
+    <link rel="mask-icon" type="image/png" href="/images/logo.svg" />
+    <link rel="apple-touch-icon" type="image/png" href="/images/logo.svg" />
+    
+    <title>{{ title + " | " if title else "" }}Prakhyat Chaube</title>
+  </head>
+  <body>
+    <header id="site-header">
+      <div class="container">
+        <div class="row flex-column flex-md-row justify-content-between align-items-center">
+          <h1 id="site-logo" class="col-auto">
+            <a href="/">Prakhyat Chaube</a>
+          </h1>
+          <nav id="site-navbar" class="col-12 col-md-auto">
+            {{ collections.all | eleventyNavigation | eleventyNavigationToHtml(navigationOptions) | safe }}
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main role="main">
+      <div class="container" id="site-page">
+        {{ content | safe }}
+      </div>
+    </main>
+    <footer id="site-footer" class="text-center">
+      <div class="container">
+        <div class="row flex-column flex-md-row justify-content-between align-items-center">
+          <div class="col-12 col-md-auto py-1">
+            Built with <a href="https://www.11ty.dev/" target="_blank">11ty</a>
+            | Source Code: <a href="https://github.com/kafleprabhakar/personal-website" target="_blank">GitHub</a>
+          </div>
+          <div class="col-12 col-md-auto py-1">
+            &copy; {% year %} Prakhyat Chaube
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

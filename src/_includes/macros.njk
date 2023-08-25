@@ -1,0 +1,10 @@
+{% macro blogList(blogs) %}
+<ol>
+{% for blog in blogs | reverse %}
+  <li>
+    <h3 class="m-0"><a href="{{ blog.url | url }}">{{ blog.data.title }}</a></h3>
+    {{ blog.data.summary }}
+  </li>
+{% endfor %}
+</ol>
+{% endmacro %}

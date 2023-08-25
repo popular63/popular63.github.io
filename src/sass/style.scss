@@ -1,0 +1,169 @@
+// Functions first
+@import "../../node_modules/bootstrap/scss/functions";
+
+// Variable overrides second
+$primary: #369;
+$light-gray-color: #ddd;
+$muted-text-color: #888;
+$text-color: #333;
+$sm-breakpoint: 576px;
+// $enable-shadows: true;
+// $prefix: "mo-";
+
+// Required Bootstrap imports
+@import "../../node_modules/bootstrap/scss/variables";
+// @import "../../node_modules/bootstrap/scss/maps";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/root";
+
+// Optional components
+@import "../../node_modules/bootstrap/scss/containers";
+@import "../../node_modules/bootstrap/scss/grid";
+@import "../../node_modules/bootstrap/scss/utilities";
+@import "../../node_modules/bootstrap/scss/utilities/api";
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;600&display=swap');
+
+// Rebooting styles
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Encode sans', sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    color: $text-color;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 100px;
+}
+
+a {
+    color: $primary;
+    &:hover {
+        color: black;
+    }
+}
+
+ul.list-unstyled {
+    list-style: none;
+    padding-left: 0;
+}
+
+.container {
+    max-width: 960px !important;
+}
+
+// Custom styling
+header#site-header {
+    padding-top: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid $light-gray-color;
+    h1#site-logo {
+        margin-bottom: 0;
+        font-weight: normal;
+    }
+    a {
+        text-decoration: none;
+    }
+    #site-navbar {
+        a.active {
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+footer#site-footer {
+    background: $primary;
+    color: white;
+    padding: 8px 0;
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    a {
+        color: white;
+    }
+}
+
+main {
+    padding: 32px 0;
+    // Common style for all the pages
+    #site-page {
+        max-width: 850px !important;
+        #page-title {
+            font-size: 2.2em;
+            line-height: 1.2;
+        }
+    }
+    // Style specific to homepage
+    #home-page {
+        #profile-photo {
+            width: 100%;
+            max-width: 300px;
+            padding: 2px;
+            border-radius: 50%;
+            border: 1px solid $primary;
+        }
+    }
+    // Styles specific to blog posts
+    #blog-content {
+        .blog-meta {
+            color: $muted-text-color;
+            padding-left: 12px;
+            padding-bottom: 12px;
+            border-bottom: 3px dotted $light-gray-color;
+        }
+    }
+    // Styles specific to 404 page
+    #page-404 {
+        h2 {
+            font-size: xxx-large;
+        }
+    }
+    // Styles specific to web CV page
+    #web-cv-page {
+        .cv-table {
+            border-collapse: collapse;
+            tr {
+                border-bottom: 1px dotted $light-gray-color;
+                td {
+                    padding: 8px 0;
+                }
+                td:first-child {
+                    white-space: nowrap;
+                    text-align: right;
+                    padding-right: 12px;
+                }
+                @media (max-width: $sm-breakpoint) {
+                    td {
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+        #cv-skills {
+            .cv-skill-cat {
+                .skill-list {
+                    .cv-skill {
+                        margin-right: 5px;
+                        display: inline-block;
+                        a {
+                            color: $text-color;
+                            text-decoration: none;
+                            background: rgba($primary, 0.1);
+                            padding: 0 3px;
+                            border-radius: 3px;
+                            display: inline-block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

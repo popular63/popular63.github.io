@@ -1,0 +1,197 @@
+{
+    "cvData": {
+        "socialMedia": {
+            "LinkedIn": "https://www.linkedin.com/in/prakhyat-c-96a4741a0/",
+            "GitHub": "https://github.com/prakhyatc"
+        },
+        "education": {
+            "courseWork": [{
+                    "title": "Fall 2022",
+                    "courses": "Introduction to Programming in Python, Introduction to Computational Thinking, Electricity and Magnetism, Multivariable Calculus, What is Capitalism?"
+                },
+                {
+                    "title": "IAP 2020",
+                    "courses": "Pokerbots"
+                },
+                {
+                    "title": "Spring 2020",
+                    "courses": "Math for Computer Science, Introduction to Machine Learning, Toy Product Design, Differential Equations, French I"
+                },
+                {
+                    "title": "Fall 2020",
+                    "courses": "Introduction to Algorithms, Fundamentals of Programming, Probability and Random Variables, Microeconomics"
+                },
+                {
+                    "title": "IAP 2021",
+                    "courses": "Introduction to Deep Learning"
+                },
+                {
+                    "title": "Spring 2021",
+                    "courses": "Elements of Software Construction, Design and Analysis of Algorithms, Embedded Systems, Medieval Economic History"
+                },
+                {
+                    "title": "Fall 2021",
+                    "courses": "Computation Structures, Digital and Computational Photography, Introductory Biology, Cultures of Computing"
+                },
+                {
+                    "title": "Spring 2022",
+                    "courses": "Advances in Computer Vision, Real Analysis, Introduction to Psychological Science, Psychology and Economics, Managerial Finance"
+                },
+                {
+                    "title": "Fall 2022",
+                    "courses": "Operating Systems Engineering, Database Systems, Introduction to Photography and Related Media, Introduction to Solid-State Chemistry"
+                },
+                {
+                    "title": "Spring 2023",
+                    "courses": "Distributed Systems, Computer Systems Engineering, Financial Market Dynamics, Introduction to Operations Management, Paradox and Infinity"
+                }
+            ]
+        },
+        "work": [{
+                "title": "Balbix",
+                "summary": "Software Engineering Intern",
+                "location": "San Jose, CA",
+                "date": "June-August 2022",
+                "description": [
+                    "Integrated Jira Ticketing system to the platform enabling customers to create Jira Issues of actionables directly from Balbix dashboard",
+                    "Helped the platform automate accounting in the AAA (authenticate, authorize, accounting) cyber-risk framework"
+                ]
+            },
+            {
+                "title": "Oya Inc.",
+                "summary": "Graphics and Web Designer",
+                "location": "Kathmandu, Nepal",
+                "date": "March 2018-April 2019",
+                "description": [
+                    "Designed WordPress themes for websites- Oya Opportunities and Oya School",
+                    "Led a team of 4 people in research and website development of Oya School- a platform for information on colleges abroad"
+                ]
+            }
+        ],
+        "research": [{
+                "title": "Document Processing Lab",
+                "summary": "Computer Science and Artificial Intelligence Lab, MIT",
+                "location": "Cambridge, MA",
+                "date": "June 2021-May 2022",
+                "description": [
+                    "Designed deep-learning pipeline based on multi-modal framework to extract field of interest from real life invoices",
+                    "Achieved an F1 score of 0.93 with <2 hrs of training on an invoice dataset",
+                    "Designed an end-to-end user interface to interact with the document processing algorithms developed in the lab"
+                ]
+            },
+            {
+                "title": "Decentralized Information Group",
+                "summary": "Computer Science and Artificial Intelligence Lab, MIT",
+                "location": "Cambridge, MA",
+                "date": "September 2019-December 2020",
+                "description": [
+                    "Implemented APIs for private versions of Machine Learning and optimization (Differential Privacy) and Federated Learning",
+                    "Built a secure backend architecture and front-end for a web interface to interactively try out basic Differential Privacy and Federated Learning"
+                ]
+            },
+            {
+                "title": "Civic Data Design Lab",
+                "summary": "Department of Urban Studies and Planning, MIT",
+                "location": "Cambridge, MA",
+                "date": "February-August 2020",
+                "description": [
+                    "Worked on data pre-processing and engineering to analyze Call Data Records of Sierra Leone to provide insights on mobility pattern to help in forming policies around COVID-19",
+                    "Programmed, and deployed in AWS, the backend and APIs for Visualize NYC 2021 web interface to share and visualize vision for New York City"
+                ]
+            }
+        ],
+        "involvements": [{
+                "title": "MITeri",
+                "summary": "President",
+                "date": "June 2022-present",
+                "description": [
+                    "Organizing monthly events to celebrate Nepali heritage and discuss current issues",
+                    "Collaborate with other South Asian student groups at MIT to celebrate South Asian culture",
+                    "Collaborate with Nepali student organizations in neighboring universities to organize major festivals"
+                ]
+            },
+            {
+                "title": "ExplainMIT (explain.web.app)",
+                "summary": "Team Member- User Interface/Experience focused",
+                "date": "January-August 2020",
+                "description": [
+                    "Built a collaborative online space for students and faculty to work together and teach in small groups",
+                    "Ran trail in 3 MIT classes and used in one for the Fall 2020 semester"
+                ]
+            },
+            {
+                "title": "Teaching Assistant",
+                "summary": "Introduction to Machine Learning",
+                "date": "September 2022-May 2023",
+                "description": []
+            }
+        ],
+        "skills": [{
+                "title": "Programming",
+                "specifics": [{
+                        "title": "Python"
+                    },
+                    {
+                        "title": "Go"
+                    },
+                    {
+                        "title": "Java",
+                        "level": "Beginner"
+                    },
+                    {
+                        "title": "C++",
+                        "level": "Beginner"
+                    }
+                ]
+            },
+            {
+                "title": "Web Development",
+                "specifics": [{
+                        "title": "HTML"
+                    },
+                    {
+                        "title": "JavaScript"
+                    },
+                    {
+                        "title": "CSS"
+                    },
+                    {
+                        "title": "ReactJS",
+                        "level": "Beginner"
+                    },
+                    {
+                        "title": "Flask",
+                        "level": "Beginner"
+                    }
+                ]
+            },
+            {
+                "title": "Machine Learning",
+                "specifics": [{
+                        "title": "Deep Learning",
+                        "level": "Beginner"
+                    },
+                    {
+                        "title": "Computer Vision"
+                    }
+                ]
+            },
+            {
+                "title": "Graphics Designing",
+                "specifics": [{
+                        "title": "Adobe Lightroom"
+                    },
+                    {
+                        "title": "Adobe Illustrator"
+                    }
+                ]
+            },
+            {
+                "title": "Other",
+                "specifics": [{
+                    "title": "Image Processing"
+                }]
+            }
+        ]
+    }
+}

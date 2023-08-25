@@ -1,0 +1,4 @@
+Sitemap: https://prabhakarkafle.com.np/sitemap.xml
+
+User-agent: *
+Disallow:

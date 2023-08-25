@@ -1,0 +1,24 @@
+{
+  "name": "prabhakar-kafle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "sass --watch src/sass:_site/css",
+    "build:sass": "sass src/sass:_site/css",
+    "watch:eleventy": "eleventy --serve",
+    "build:eleventy": "eleventy",
+    "start": "npm-run-all build:sass --parallel watch:*",
+    "build": "npm-run-all build:*"
+  },
+  "keywords": [],
+  "author": "@prabhakarkafle",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy-navigation": "^0.3.3",
+    "bootstrap": "^5.1.3",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.53.0"
+  }
+}
