@@ -7,123 +7,84 @@
         "education": {
             "courseWork": [{
                     "title": "Fall 2022",
-                    "courses": "Introduction to Programming in Python, Introduction to Computational Thinking, Electricity and Magnetism, Multivariable Calculus, What is Capitalism?"
-                },
-                {
-                    "title": "IAP 2020",
-                    "courses": "Pokerbots"
-                },
-                {
-                    "title": "Spring 2020",
-                    "courses": "Math for Computer Science, Introduction to Machine Learning, Toy Product Design, Differential Equations, French I"
-                },
-                {
-                    "title": "Fall 2020",
-                    "courses": "Introduction to Algorithms, Fundamentals of Programming, Probability and Random Variables, Microeconomics"
-                },
-                {
-                    "title": "IAP 2021",
-                    "courses": "Introduction to Deep Learning"
-                },
-                {
-                    "title": "Spring 2021",
-                    "courses": "Elements of Software Construction, Design and Analysis of Algorithms, Embedded Systems, Medieval Economic History"
-                },
-                {
-                    "title": "Fall 2021",
-                    "courses": "Computation Structures, Digital and Computational Photography, Introductory Biology, Cultures of Computing"
-                },
-                {
-                    "title": "Spring 2022",
-                    "courses": "Advances in Computer Vision, Real Analysis, Introduction to Psychological Science, Psychology and Economics, Managerial Finance"
-                },
-                {
-                    "title": "Fall 2022",
-                    "courses": "Operating Systems Engineering, Database Systems, Introduction to Photography and Related Media, Introduction to Solid-State Chemistry"
+                    "courses": "Introduction to Computers and Programming, Principles of Macro Economics, Rhetoric and Composition I, Calculus I, Government of US, Student Success"
                 },
                 {
                     "title": "Spring 2023",
-                    "courses": "Distributed Systems, Computer Systems Engineering, Financial Market Dynamics, Introduction to Operations Management, Paradox and Infinity"
+                    "courses": "Introduction to Computer Science and Engineering, Intermediate Programming, Discrete Structures, Calculus II, General Technical Physics I, State and Local Government"
+                },
+                {
+                    "title": "Summer 2023",
+                    "courses": "Algorithms and Data Structures"
+                },
+                {
+                    "title": "Fall 2023",
+                    "courses": "Object Oriented Programming, Computer Organization and Assembly Language Processing, Linear Algebra for CSE, Professional and Technical Communication, General Technical Physics II"
                 }
             ]
         },
         "work": [{
-                "title": "Balbix",
-                "summary": "Software Engineering Intern",
-                "location": "San Jose, CA",
-                "date": "June-August 2022",
+                "title": "Office of Information and Technology - UT Arlington",
+                "summary": "IT Analyst",
+                "location": "Arlington, TX",
+                "date": "November 2022 - Present",
                 "description": [
-                    "Integrated Jira Ticketing system to the platform enabling customers to create Jira Issues of actionables directly from Balbix dashboard",
-                    "Helped the platform automate accounting in the AAA (authenticate, authorize, accounting) cyber-risk framework"
+                    "Configured and performed system backups, installed software, ensured a smooth and quick setup process for a seamless use by students, professors, and staff by handling tickets through ServiceNow",
+                    "Collaborated with other team members to implement new IT initiatives, such as migrating to cloud-based solutions, upgrading hardware and software, and improving security measures",
+                    "Reduced enrollment time by 50%, achieved an excellent customer satisfaction rating, and helped to maintain the smooth operation of university’s device enrollment through Microsoft Endpoint Management(MEM)"
                 ]
             },
             {
-                "title": "Oya Inc.",
+                "title": "KUSOM Placement Cell",
                 "summary": "Graphics and Web Designer",
-                "location": "Kathmandu, Nepal",
+                "location": "Lalitpur, Nepal",
                 "date": "March 2018-April 2019",
                 "description": [
-                    "Designed WordPress themes for websites- Oya Opportunities and Oya School",
-                    "Led a team of 4 people in research and website development of Oya School- a platform for information on colleges abroad"
-                ]
-            }
-        ],
-        "research": [{
-                "title": "Document Processing Lab",
-                "summary": "Computer Science and Artificial Intelligence Lab, MIT",
-                "location": "Cambridge, MA",
-                "date": "June 2021-May 2022",
-                "description": [
-                    "Designed deep-learning pipeline based on multi-modal framework to extract field of interest from real life invoices",
-                    "Achieved an F1 score of 0.93 with <2 hrs of training on an invoice dataset",
-                    "Designed an end-to-end user interface to interact with the document processing algorithms developed in the lab"
+                    "Employed specialized design expertise to develop distinctive logos that optimized brand recognition and effectively conveyed marketing objectives across Facebook and LinkedIn",
+                    "Crafted visually appealing advertisements for over 90 top-tier organizations participating in high-stakes placement events and job fairs, generating a significant increase in event turnout and candidate interest",
+                    "Designed 200+ student profiles, reviewed their resumes through Adobe InDesign for placement events, resulting in a marked improvement in the quality of job applications"
                 ]
             },
             {
-                "title": "Decentralized Information Group",
-                "summary": "Computer Science and Artificial Intelligence Lab, MIT",
-                "location": "Cambridge, MA",
-                "date": "September 2019-December 2020",
+                "title": "Data Research Council for Students",
+                "summary": "Technical Content Writer",
+                "location": "Kathmandu, Nepal",
+                "date": "March 2019-April 2020",
                 "description": [
-                    "Implemented APIs for private versions of Machine Learning and optimization (Differential Privacy) and Federated Learning",
-                    "Built a secure backend architecture and front-end for a web interface to interactively try out basic Differential Privacy and Federated Learning"
-                ]
-            },
-            {
-                "title": "Civic Data Design Lab",
-                "summary": "Department of Urban Studies and Planning, MIT",
-                "location": "Cambridge, MA",
-                "date": "February-August 2020",
-                "description": [
-                    "Worked on data pre-processing and engineering to analyze Call Data Records of Sierra Leone to provide insights on mobility pattern to help in forming policies around COVID-19",
-                    "Programmed, and deployed in AWS, the backend and APIs for Visualize NYC 2021 web interface to share and visualize vision for New York City"
+                    "Crafted informative technical blogs that reached a wide audience, with over 10,000 views, helping students understand complex concepts",
+                    "Managed weekly newsletters for 500 subscribers, resulting in a significant 20% increase in reader engagement, providing valuable insights into industry trends"
                 ]
             }
         ],
         "involvements": [{
-                "title": "MITeri",
-                "summary": "President",
-                "date": "June 2022-present",
+                "title": "CapitalOne",
+                "summary": "CapitalOne Immersion Program",
+                "date": "July 2023",
                 "description": [
-                    "Organizing monthly events to celebrate Nepali heritage and discuss current issues",
-                    "Collaborate with other South Asian student groups at MIT to celebrate South Asian culture",
-                    "Collaborate with Nepali student organizations in neighboring universities to organize major festivals"
+                    "Secured a spot in a rigorous program, admitting only 50 students out of a nationwide competitive pool, enabling an immersive personal, professional, and technical growth, under the guidance of Capital One mentors",
+                    "Participated in a targeted curriculum, highlighted by a transformative three-day career exploration and professional development immersion, culminating in a final capstone presentation",
+                    "Led final capstone project elevating credit card offerings through software-engineered website and app enhancements for enhanced market impact"
                 ]
             },
             {
-                "title": "ExplainMIT (explain.web.app)",
-                "summary": "Team Member- User Interface/Experience focused",
-                "date": "January-August 2020",
+                "title": "Goldman Sachs",
+                "summary": "Goldman Sachs Virtual Insights Series",
+                "date": "June 2023",
                 "description": [
-                    "Built a collaborative online space for students and faculty to work together and teach in small groups",
-                    "Ran trail in 3 MIT classes and used in one for the Fall 2020 semester"
+                    "Completed the distinguished 2023 Virtual Insight Series with Goldman Sachs, thoroughly mastering resume optimization, strategic networking, and essential interview strategies",
+                    "Engaged with seasoned professionals and harnessed networking avenues, uncovering multifaceted career paths within Goldman Sachs, solidifying my professional confidence and ambitious aspirations",
+                    "Delved into skill development, personal narrative refinement, exploration of Goldman Sachs' operational intricacies, and deep cultural integration"
                 ]
             },
             {
-                "title": "Teaching Assistant",
-                "summary": "Introduction to Machine Learning",
-                "date": "September 2022-May 2023",
-                "description": []
+                "title": "Womanium",
+                "summary": "Womanium Quantum 2023 (ongoing)",
+                "date": "August 2023",
+                "description": [
+                    "Actively participating in a cutting-edge Quantum Computing program, exploring hardware, software, and real-world applications, enriching my knowledge from qubits to computers",
+                    "Engaging in Quantum Sensing, delving into the physics of quantum sensors, applications from space to health, and bridging the gap from laboratory innovations to practical implementations",
+                    "Exploring Quantum Applications across industries like energy, finance, healthcare, and more, and gaining insights into real-world quantum solutions and technology advancements"
+                ]
             }
         ],
         "skills": [{
