@@ -7,11 +7,6 @@
         </url>
     
         <url>
-            <loc>/blogs/</loc>
-            <lastmod>2023-08-25T23:13:04.221Z</lastmod>
-        </url>
-    
-        <url>
             <loc>/bookshelf/</loc>
             <lastmod>2023-08-25T23:13:04.221Z</lastmod>
         </url>
@@ -29,6 +24,11 @@
         <url>
             <loc>/web-cv/</loc>
             <lastmod>2023-08-25T23:13:04.229Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/blogs/</loc>
+            <lastmod>2023-09-15T07:35:15.876Z</lastmod>
         </url>
     
 </urlset>
