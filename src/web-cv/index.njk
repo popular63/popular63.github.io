@@ -6,11 +6,12 @@ eleventyNavigation:
 ---
 <div id="web-cv-page">
     <h2 class="text-center">Web CV</h2>
+
     {# --------------- Intro Section --------------- #}
     <section id="cv-intro" class="text-center">
-        {% for social, socialUrl in cvData.socialMedia %}
-            <a href="{{ socialUrl }}" target="_blank" class="px-4">
-                {{ social }}
+        {% for item in cvData.socialMedia %}
+            <a href="{{ item.socialUrl }}" target="_blank" class="px-4">
+                {{ item.social }}
             </a>
         {% endfor %}
         <p class="fst-italic">
@@ -18,6 +19,7 @@ eleventyNavigation:
             Web Development, and Fintech Industry.
         </p>
     </section>
+
     {# --------------- Education Section --------------- #}
     <section id="cv-education" class="cv-section">
         <h3 class="text-primary">Education</h3>
@@ -30,88 +32,94 @@ eleventyNavigation:
                 <table class="cv-table">
                     {% for semester in cvData.education.courseWork %}
                         <tr>
-                            <td><strong> {{ semester.title }} </strong></td>
-                            <td><em> {{ semester.courses }} </em></td>
+                            <td><strong>{{ semester.title }}</strong></td>
+                            <td><em>{{ semester.courses }}</em></td>
                         </tr>
                     {% endfor %}
                 </table>
             </section>
+        </div>
     </section>
+
     {# --------------- Work Experience Section --------------- #}
     <section id="cv-work" class="cv-section">
         <h3 class="text-primary">Work Experience</h3>
         <div class="cv-section-content">
-        {% for item in cvData.work %}
-            <div class="cv-item">
-                <strong>{{ item.title }}</strong>
-                <br />
-                <em>{{ item.summary }}</em>
-                <ul>
-                    {% for point in item.description %}
-                        <li>{{ point }}</li>
-                    {% endfor %}
-                </ul>
-            </div>
-        {% endfor %}
+            {% for item in cvData.work %}
+                <div class="cv-item">
+                    <strong>{{ item.title }}</strong>
+                    <br />
+                    <em>{{ item.summary }}</em>
+                    <ul>
+                        {% for point in item.description %}
+                            <li>{{ point }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            {% endfor %}
         </div>
     </section>
+
     {# --------------- Research Experience Section --------------- #}
     <section id="cv-research" class="cv-section">
         <h3 class="text-primary">Research Experience</h3>
         <div class="cv-section-content">
-        {% for item in cvData.research %}
-            <div class="cv-item">
-                <strong>{{ item.title }}</strong>
-                <br />
-                <em>{{ item.summary }}</em>
-                <ul>
-                    {% for point in item.description %}
-                        <li>{{ point }}</li>
-                    {% endfor %}
-                </ul>
-            </div>
-        {% endfor %}
+            {% for item in cvData.research %}
+                <div class="cv-item">
+                    <strong>{{ item.title }}</strong>
+                    <br />
+                    <em>{{ item.summary }}</em>
+                    <ul>
+                        {% for point in item.description %}
+                            <li>{{ point }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            {% endfor %}
         </div>
     </section>
+
     {# --------------- Other Activities Section --------------- #}
     <section id="cv-involvements" class="cv-section">
         <h3 class="text-primary">Other Involvements</h3>
         <div class="cv-section-content">
-        {% for item in cvData.involvements %}
-            <div class="cv-item">
-                <strong>{{ item.title }}</strong>
-                <br />
-                <em>{{ item.summary }}</em>
-                <ul>
-                    {% for point in item.description %}
-                        <li>{{ point }}</li>
-                    {% endfor %}
-                </ul>
-            </div>
-        {% endfor %}
+            {% for item in cvData.involvements %}
+                <div class="cv-item">
+                    <strong>{{ item.title }}</strong>
+                    <br />
+                    <em>{{ item.summary }}</em>
+                    <ul>
+                        {% for point in item.description %}
+                            <li>{{ point }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            {% endfor %}
         </div>
     </section>
-    {# --------------- Other Activities Section --------------- #}
+
+    {# --------------- Technical Skills Section --------------- #}
     <section id="cv-skills" class="cv-section">
         <h3 class="text-primary">Technical Skills</h3>
         <table class="cv-table">
             {% for category in cvData.skills %}
-            <tr class="cv-skill-cat">
-                <td>
-                    <h4 class="m-1">{{ category.title }}</h4>
-                </td>
-                <td class="skill-list">
-                    {% for item in category.specifics %}
-                    <span class="cv-skill">
-                        <a>{{ item.title }}</a>
-                        {% if 'level' in item %}
-                        <sub class="fst-small fst-italic">{{ item.level }}</sub>
-                        {% endif %}
-                    </span>
-                    {% endfor %}
-                </td>
-            </tr>
+                <tr class="cv-skill-cat">
+                    <td>
+                        <h4 class="m-1">{{ category.title }}</h4>
+                    </td>
+                    <td class="skill-list">
+                        {% for item in category.specifics %}
+                            <span class="cv-skill">
+                                <a>{{ item.title }}</a>
+                                {% if 'level' in item %}
+                                    <sub class="fst-small fst-italic">{{ item.level }}</sub>
+                                {% endif %}
+                            </span>
+                        {% endfor %}
+                    </td>
+                </tr>
             {% endfor %}
         </table>
     </section>
+
 </div>
