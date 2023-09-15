@@ -7,17 +7,18 @@ eleventyNavigation:
 <div id="web-cv-page">
     <h2 class="text-center">Web CV</h2>
     {# --------------- Intro Section --------------- #}
-    <section id="cv-intro" class="text-center">
-        {% for social, socialUrl in cvData.socialMedia %}
-            <a href="{{ socialUrl }}" target="_blank" class="px-4">
-                {{ social }}
-            </a>
-        {% endfor %}
-        <p class="fst-italic">
-            Rising Sophomore pursuing Bachelor's of Science in Computer Science @ UT Arlington. I am interested in Software Systems Engineering, 
-            Web Development, and Fintech Industry.
-        </p>
-    </section>
+<section id="cv-intro" class="text-center">
+    {% for item in cvData.socialMedia %}
+        <a href="{{ item.socialUrl }}" target="_blank" class="px-4">
+            {{ item.social }}
+        </a>
+    {% endfor %}
+    <p class="fst-italic">
+        Rising Sophomore pursuing Bachelor's of Science in Computer Science @ UT Arlington. I am interested in Software Systems Engineering, 
+        Web Development, and Fintech Industry.
+    </p>
+</section>
+
     {# --------------- Education Section --------------- #}
     <section id="cv-education" class="cv-section">
         <h3 class="text-primary">Education</h3>
